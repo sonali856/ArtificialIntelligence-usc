@@ -1,0 +1,2411 @@
+SPLA After removal  set(['00017', '00009', '00018', '00003'])
+LAHSA After removal  set(['00022', '00009', '00018'])
+BOTH After removal  set(['00009', '00018'])
+OrderedDict([('00003', [0, 0, 1, 1, 1, 1, 1]), ('00009', [1, 0, 1, 0, 0, 0, 1]), ('00017', [0, 1, 1, 1, 1, 1, 1]), ('00018', [0, 1, 1, 0, 1, 0, 0]), ('00022', [1, 0, 1, 1, 0, 1, 0])])
+Applicants Dict  OrderedDict([('00003', [0, 0, 1, 1, 1, 1, 1]), ('00009', [1, 0, 1, 0, 0, 0, 1]), ('00017', [0, 1, 1, 1, 1, 1, 1]), ('00018', [0, 1, 1, 0, 1, 0, 0]), ('00022', [1, 0, 1, 1, 0, 1, 0])])
+****************************************************  FIRST
+FIRST APPLICANT 
+SPLA Eligible : set(['00017', '00009', '00018', '00003'])
+LAHSA Eligible : set(['00022', '00009', '00018'])
+SPACES  [0, 0, 0, 0, 0, 0, 0]
+BEDS [0, 0, 0, 0, 0, 0, 0]
+Vistedset([])
+OrderedDict([('00003', [0, 0, 1, 1, 1, 1, 1]), ('00009', [1, 0, 1, 0, 0, 0, 1]), ('00017', [0, 1, 1, 1, 1, 1, 1]), ('00018', [0, 1, 1, 0, 1, 0, 0]), ('00022', [1, 0, 1, 1, 0, 1, 0])])
+**************************************************** FIRST
+Adding First Applicant    00003
+SPACES [0, 0, 1, 1, 1, 1, 1]
+MAX CURRENT SPLA5MAX CURRENT LAHS0
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment5
+Local Max LAHSA Assignment0
+Till Now Visited set(['00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00003
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [0, 0, 1, 1, 1, 1, 1]
+BEDS FILLED [1, 0, 1, 1, 0, 1, 0]
+Max Current SPLA : 
+5
+Max Current LAHSA: 
+4
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 5
+Local Max LAHSA Assignment 4
+Till Now Visited set(['00022', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA ADDS APPLICANT ********************** 00017
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [1, 0, 1, 1, 0, 1, 0]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+4
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment11
+Local Max LAHSA Assignment4
+Till Now Visited set(['00022', '00003', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00017
+LAHSA ADDS APPLICANT 00009
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 11
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00022', '00009', '00003', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+SPLA ADDS APPLICANT ********************** 00018
+SPACES FILLED [0, 2, 3, 2, 3, 2, 2]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00022', '00009', '00018', '00003', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+LAHSA IS OVER 
+ No of Spaces[0, 2, 3, 2, 3, 2, 2]
+CURRENT SPLA 14
+VISITED SET set(['00022', '00009', '00018', '00003', '00017'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[0, 2, 3, 2, 3, 2, 2]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 11 Max SPLA 14 LOCAL MAX ID COMPARES 00018 MAX ID 10000000
+Replacing id 00018 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [2, 0, 2, 1, 0, 1, 1]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 4 Max LAHSA 7 LOCAL MAX ID COMPARES 00009 MAX ID 10000000
+Replacing id 00009 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+LAHSA ADDS APPLICANT 00018
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 11
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00022', '00018', '00003', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+SPLA ADDS APPLICANT ********************** 00009
+SPACES FILLED [1, 1, 3, 2, 2, 2, 3]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00022', '00009', '00018', '00003', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+LAHSA IS OVER 
+ No of Spaces[1, 1, 3, 2, 2, 2, 3]
+CURRENT SPLA 14
+VISITED SET set(['00022', '00009', '00018', '00003', '00017'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[1, 1, 3, 2, 2, 2, 3]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 11 Max SPLA 14 LOCAL MAX ID COMPARES 00009 MAX ID 10000000
+Replacing id 00009 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [1, 1, 2, 1, 1, 1, 0]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 7 Max LAHSA 7 LOCAL MAX ID COMPARES 00018 MAX ID 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00018
+LAHSA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id00018
+LOCAL MAX 5 Max SPLA 14 LOCAL MAX ID COMPARES 00017 MAX ID 00018
+Replacing id 00017 WITH 00018
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00018
+SPLA REMOVES APPLICANT 00017
+SPACES AFTER REMOVAL [0, 0, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+SPLA ADDS APPLICANT ********************** 00009
+SPACES FILLED [1, 0, 2, 1, 1, 1, 2]
+BEDS FILLED [1, 0, 1, 1, 0, 1, 0]
+Max Current SPLA : 
+8
+Max Current LAHSA: 
+4
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment8
+Local Max LAHSA Assignment4
+Till Now Visited set(['00022', '00009', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+LAHSA ADDS APPLICANT 00018
+SPACES FILLED [1, 0, 2, 1, 1, 1, 2]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+8
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 8
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00022', '00009', '00018', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+SPLA ADDS APPLICANT ********************** 00017
+SPACES FILLED [1, 1, 3, 2, 2, 2, 3]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00022', '00009', '00018', '00003', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00017
+LAHSA IS OVER 
+ No of Spaces[1, 1, 3, 2, 2, 2, 3]
+CURRENT SPLA 14
+VISITED SET set(['00022', '00009', '00018', '00003', '00017'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[1, 1, 3, 2, 2, 2, 3]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 8 Max SPLA 14 LOCAL MAX ID COMPARES 00017 MAX ID 10000000
+Replacing id 00017 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00017
+SPACES AFTER REMOVAL [1, 0, 2, 1, 1, 1, 2]
+BEDS AFTER REMOVAL [1, 1, 2, 1, 1, 1, 0]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 4 Max LAHSA 7 LOCAL MAX ID COMPARES 00018 MAX ID 10000000
+Replacing id 00018 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [1, 0, 2, 1, 1, 1, 2]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 14 Max SPLA 14 LOCAL MAX ID COMPARES 00009 MAX ID 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00009
+SPLA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 0, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+SPLA ADDS APPLICANT ********************** 00018
+SPACES FILLED [0, 1, 2, 1, 2, 1, 1]
+BEDS FILLED [1, 0, 1, 1, 0, 1, 0]
+Max Current SPLA : 
+8
+Max Current LAHSA: 
+4
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment8
+Local Max LAHSA Assignment4
+Till Now Visited set(['00022', '00018', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+LAHSA ADDS APPLICANT 00009
+SPACES FILLED [0, 1, 2, 1, 2, 1, 1]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+8
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 8
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00022', '00009', '00018', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+SPLA ADDS APPLICANT ********************** 00017
+SPACES FILLED [0, 2, 3, 2, 3, 2, 2]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00022', '00009', '00018', '00003', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00017
+LAHSA IS OVER 
+ No of Spaces[0, 2, 3, 2, 3, 2, 2]
+CURRENT SPLA 14
+VISITED SET set(['00022', '00009', '00018', '00003', '00017'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[0, 2, 3, 2, 3, 2, 2]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 8 Max SPLA 14 LOCAL MAX ID COMPARES 00017 MAX ID 10000000
+Replacing id 00017 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00017
+SPACES AFTER REMOVAL [0, 1, 2, 1, 2, 1, 1]
+BEDS AFTER REMOVAL [2, 0, 2, 1, 0, 1, 1]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 4 Max LAHSA 7 LOCAL MAX ID COMPARES 00009 MAX ID 10000000
+Replacing id 00009 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 1, 2, 1, 2, 1, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 14 Max SPLA 14 LOCAL MAX ID COMPARES 00018 MAX ID 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00018
+SPLA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [0, 0, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 00018
+LOCAL MAX 0 Max LAHSA 7 LOCAL MAX ID COMPARES 00022 MAX ID 00018
+Replacing id 00022 WITH 00018
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00018
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [0, 0, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [0, 0, 0, 0, 0, 0, 0]
+LAHSA ADDS APPLICANT 00009
+SPACES FILLED [0, 0, 1, 1, 1, 1, 1]
+BEDS FILLED [1, 0, 1, 0, 0, 0, 1]
+Max Current SPLA : 
+5
+Max Current LAHSA: 
+3
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 5
+Local Max LAHSA Assignment 3
+Till Now Visited set(['00009', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+SPLA ADDS APPLICANT ********************** 00017
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [1, 0, 1, 0, 0, 0, 1]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+3
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment11
+Local Max LAHSA Assignment3
+Till Now Visited set(['00017', '00009', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00017
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 11
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00017', '00009', '00003', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA ADDS APPLICANT ********************** 00018
+SPACES FILLED [0, 2, 3, 2, 3, 2, 2]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00017', '00009', '00018', '00003', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+LAHSA IS OVER 
+ No of Spaces[0, 2, 3, 2, 3, 2, 2]
+CURRENT SPLA 14
+VISITED SET set(['00017', '00009', '00018', '00003', '00022'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[0, 2, 3, 2, 3, 2, 2]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 11 Max SPLA 14 LOCAL MAX ID COMPARES 00018 MAX ID 10000000
+Replacing id 00018 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [2, 0, 2, 1, 0, 1, 1]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 3 Max LAHSA 7 LOCAL MAX ID COMPARES 00022 MAX ID 10000000
+Replacing id 00022 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+LAHSA ADDS APPLICANT 00018
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [1, 1, 2, 0, 1, 0, 1]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+6
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 11
+Local Max LAHSA Assignment 6
+Till Now Visited set(['00017', '00009', '00018', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+SPLA IS OVER 
+ No of Spaces[0, 1, 2, 2, 2, 2, 2]
+CURRENT SPLA 11
+VISITED SET set(['00017', '00009', '00018', '00003'])
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment11
+Local Max LAHSA Assignment6
+Till Now Visited set(['00017', '00009', '00018', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [2, 1, 3, 1, 1, 1, 1]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+10
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 11
+Local Max LAHSA Assignment 10
+Till Now Visited set(['00017', '00009', '00018', '00003', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA IS OVER 
+ No of Spaces[0, 1, 2, 2, 2, 2, 2]
+CURRENT SPLA 11
+VISITED SET set(['00017', '00009', '00018', '00003', '00022'])
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment11
+Local Max LAHSA Assignment10
+Till Now Visited set(['00017', '00009', '00018', '00003', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+LAHSA IS OVER 
+ No of Spaces[0, 1, 2, 2, 2, 2, 2]
+CURRENT SPLA 11
+VISITED SET set(['00017', '00009', '00018', '00003', '00022'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[0, 1, 2, 2, 2, 2, 2]
+TOTAL EFFICIENCY : 11 LOWER ID 10000000
+ Return when SPLA IS OVER MAX SPLA :11 Max Lahsa:10 Max id10000000
+CALL RETURNED IN LAHSA Max Spla 11Max Lahsa 10Max Id 10000000
+LOCAL MAX 6 Max LAHSA 10 LOCAL MAX ID COMPARES 00022 MAX ID 10000000
+Replacing id 00022 WITH 10000000
+LOCAL MAX LAHSA 10LOCAL MAX SPLA 11 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [1, 1, 2, 0, 1, 0, 1]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ Return when SPLA IS OVER MAX SPLA :11 Max Lahsa:10 Max id10000000
+CALL RETURNED IN LAHSA Max Spla 11Max Lahsa 10Max Id 10000000
+LOCAL MAX 7 Max LAHSA 10 LOCAL MAX ID COMPARES 00018 MAX ID 10000000
+Replacing id 00018 WITH 10000000
+LOCAL MAX LAHSA 10LOCAL MAX SPLA 11 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla11Max Lahsa10Max Id10000000
+LOCAL MAX 5 Max SPLA 11 LOCAL MAX ID COMPARES 00017 MAX ID 10000000
+Replacing id 00017 WITH 10000000
+LOCAL MAX LAHSA 10LOCAL MAX SPLA 11 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00017
+SPACES AFTER REMOVAL [0, 0, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+SPLA ADDS APPLICANT ********************** 00018
+SPACES FILLED [0, 1, 2, 1, 2, 1, 1]
+BEDS FILLED [1, 0, 1, 0, 0, 0, 1]
+Max Current SPLA : 
+8
+Max Current LAHSA: 
+3
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment8
+Local Max LAHSA Assignment3
+Till Now Visited set(['00009', '00018', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [0, 1, 2, 1, 2, 1, 1]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+8
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 8
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00022', '00009', '00018', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA ADDS APPLICANT ********************** 00017
+SPACES FILLED [0, 2, 3, 2, 3, 2, 2]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00022', '00009', '00018', '00003', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00017
+LAHSA IS OVER 
+ No of Spaces[0, 2, 3, 2, 3, 2, 2]
+CURRENT SPLA 14
+VISITED SET set(['00022', '00009', '00018', '00003', '00017'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[0, 2, 3, 2, 3, 2, 2]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 8 Max SPLA 14 LOCAL MAX ID COMPARES 00017 MAX ID 10000000
+Replacing id 00017 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00017
+SPACES AFTER REMOVAL [0, 1, 2, 1, 2, 1, 1]
+BEDS AFTER REMOVAL [2, 0, 2, 1, 0, 1, 1]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 3 Max LAHSA 7 LOCAL MAX ID COMPARES 00022 MAX ID 10000000
+Replacing id 00022 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [0, 1, 2, 1, 2, 1, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 11 Max SPLA 14 LOCAL MAX ID COMPARES 00018 MAX ID 10000000
+Replacing id 00018 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [0, 0, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 7 Max LAHSA 7 LOCAL MAX ID COMPARES 00009 MAX ID 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00009
+LAHSA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 0, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [0, 0, 0, 0, 0, 0, 0]
+LAHSA ADDS APPLICANT 00018
+SPACES FILLED [0, 0, 1, 1, 1, 1, 1]
+BEDS FILLED [0, 1, 1, 0, 1, 0, 0]
+Max Current SPLA : 
+5
+Max Current LAHSA: 
+3
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 5
+Local Max LAHSA Assignment 3
+Till Now Visited set(['00018', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+SPLA ADDS APPLICANT ********************** 00017
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [0, 1, 1, 0, 1, 0, 0]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+3
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment11
+Local Max LAHSA Assignment3
+Till Now Visited set(['00017', '00018', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00017
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 11
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00017', '00018', '00003', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA ADDS APPLICANT ********************** 00009
+SPACES FILLED [1, 1, 3, 2, 2, 2, 3]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00017', '00009', '00018', '00003', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+LAHSA IS OVER 
+ No of Spaces[1, 1, 3, 2, 2, 2, 3]
+CURRENT SPLA 14
+VISITED SET set(['00017', '00009', '00018', '00003', '00022'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[1, 1, 3, 2, 2, 2, 3]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 11 Max SPLA 14 LOCAL MAX ID COMPARES 00009 MAX ID 10000000
+Replacing id 00009 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [1, 1, 2, 1, 1, 1, 0]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 3 Max LAHSA 7 LOCAL MAX ID COMPARES 00022 MAX ID 10000000
+Replacing id 00022 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+LAHSA ADDS APPLICANT 00009
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [1, 1, 2, 0, 1, 0, 1]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+6
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 11
+Local Max LAHSA Assignment 6
+Till Now Visited set(['00017', '00009', '00018', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+SPLA IS OVER 
+ No of Spaces[0, 1, 2, 2, 2, 2, 2]
+CURRENT SPLA 11
+VISITED SET set(['00017', '00009', '00018', '00003'])
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment11
+Local Max LAHSA Assignment6
+Till Now Visited set(['00017', '00009', '00018', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [2, 1, 3, 1, 1, 1, 1]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+10
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 11
+Local Max LAHSA Assignment 10
+Till Now Visited set(['00017', '00009', '00018', '00003', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA IS OVER 
+ No of Spaces[0, 1, 2, 2, 2, 2, 2]
+CURRENT SPLA 11
+VISITED SET set(['00017', '00009', '00018', '00003', '00022'])
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment11
+Local Max LAHSA Assignment10
+Till Now Visited set(['00017', '00009', '00018', '00003', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+LAHSA IS OVER 
+ No of Spaces[0, 1, 2, 2, 2, 2, 2]
+CURRENT SPLA 11
+VISITED SET set(['00017', '00009', '00018', '00003', '00022'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[0, 1, 2, 2, 2, 2, 2]
+TOTAL EFFICIENCY : 11 LOWER ID 10000000
+ Return when SPLA IS OVER MAX SPLA :11 Max Lahsa:10 Max id10000000
+CALL RETURNED IN LAHSA Max Spla 11Max Lahsa 10Max Id 10000000
+LOCAL MAX 6 Max LAHSA 10 LOCAL MAX ID COMPARES 00022 MAX ID 10000000
+Replacing id 00022 WITH 10000000
+LOCAL MAX LAHSA 10LOCAL MAX SPLA 11 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [1, 1, 2, 0, 1, 0, 1]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ Return when SPLA IS OVER MAX SPLA :11 Max Lahsa:10 Max id10000000
+CALL RETURNED IN LAHSA Max Spla 11Max Lahsa 10Max Id 10000000
+LOCAL MAX 7 Max LAHSA 10 LOCAL MAX ID COMPARES 00009 MAX ID 10000000
+Replacing id 00009 WITH 10000000
+LOCAL MAX LAHSA 10LOCAL MAX SPLA 11 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla11Max Lahsa10Max Id10000000
+LOCAL MAX 5 Max SPLA 11 LOCAL MAX ID COMPARES 00017 MAX ID 10000000
+Replacing id 00017 WITH 10000000
+LOCAL MAX LAHSA 10LOCAL MAX SPLA 11 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00017
+SPACES AFTER REMOVAL [0, 0, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+SPLA ADDS APPLICANT ********************** 00009
+SPACES FILLED [1, 0, 2, 1, 1, 1, 2]
+BEDS FILLED [0, 1, 1, 0, 1, 0, 0]
+Max Current SPLA : 
+8
+Max Current LAHSA: 
+3
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment8
+Local Max LAHSA Assignment3
+Till Now Visited set(['00009', '00018', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [1, 0, 2, 1, 1, 1, 2]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+8
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 8
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00022', '00009', '00018', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA ADDS APPLICANT ********************** 00017
+SPACES FILLED [1, 1, 3, 2, 2, 2, 3]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00022', '00009', '00018', '00003', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00017
+LAHSA IS OVER 
+ No of Spaces[1, 1, 3, 2, 2, 2, 3]
+CURRENT SPLA 14
+VISITED SET set(['00022', '00009', '00018', '00003', '00017'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[1, 1, 3, 2, 2, 2, 3]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 8 Max SPLA 14 LOCAL MAX ID COMPARES 00017 MAX ID 10000000
+Replacing id 00017 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00017
+SPACES AFTER REMOVAL [1, 0, 2, 1, 1, 1, 2]
+BEDS AFTER REMOVAL [1, 1, 2, 1, 1, 1, 0]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 3 Max LAHSA 7 LOCAL MAX ID COMPARES 00022 MAX ID 10000000
+Replacing id 00022 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [1, 0, 2, 1, 1, 1, 2]
+BEDS AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 11 Max SPLA 14 LOCAL MAX ID COMPARES 00009 MAX ID 10000000
+Replacing id 00009 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 0, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 7 Max LAHSA 7 LOCAL MAX ID COMPARES 00018 MAX ID 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00018
+LAHSA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [0, 0, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [0, 0, 0, 0, 0, 0, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+------------------------------------------------------------------------------------------------------------
+MAX SPLA FIRST APPLICANT 14
+APPLICANT 00018
+SPLA CURRENT FINAL 14 LAHSA FINAL 7 FINAL APPLICANT 00003
+Removing First Applicant : 00003
+SPACES AFTER REMOVAL [0, 0, 0, 0, 0, 0, 0]
+**************************************************** FIRST
+Adding First Applicant    00009
+SPACES [1, 0, 1, 0, 0, 0, 1]
+MAX CURRENT SPLA3MAX CURRENT LAHS0
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment3
+Local Max LAHSA Assignment0
+Till Now Visited set(['00009'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [1, 0, 1, 0, 0, 0, 1]
+BEDS FILLED [1, 0, 1, 1, 0, 1, 0]
+Max Current SPLA : 
+3
+Max Current LAHSA: 
+4
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 3
+Local Max LAHSA Assignment 4
+Till Now Visited set(['00022', '00009'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA ADDS APPLICANT ********************** 00017
+SPACES FILLED [1, 1, 2, 1, 1, 1, 2]
+BEDS FILLED [1, 0, 1, 1, 0, 1, 0]
+Max Current SPLA : 
+9
+Max Current LAHSA: 
+4
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment9
+Local Max LAHSA Assignment4
+Till Now Visited set(['00022', '00009', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00017
+LAHSA ADDS APPLICANT 00018
+SPACES FILLED [1, 1, 2, 1, 1, 1, 2]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+9
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 9
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00022', '00009', '00018', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+SPLA ADDS APPLICANT ********************** 00003
+SPACES FILLED [1, 1, 3, 2, 2, 2, 3]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00022', '00009', '00003', '00018', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00003
+LAHSA IS OVER 
+ No of Spaces[1, 1, 3, 2, 2, 2, 3]
+CURRENT SPLA 14
+VISITED SET set(['00022', '00009', '00003', '00018', '00017'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[1, 1, 3, 2, 2, 2, 3]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 9 Max SPLA 14 LOCAL MAX ID COMPARES 00003 MAX ID 10000000
+Replacing id 00003 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00003
+SPACES AFTER REMOVAL [1, 1, 2, 1, 1, 1, 2]
+BEDS AFTER REMOVAL [1, 1, 2, 1, 1, 1, 0]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 4 Max LAHSA 7 LOCAL MAX ID COMPARES 00018 MAX ID 10000000
+Replacing id 00018 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [1, 1, 2, 1, 1, 1, 2]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 3 Max SPLA 14 LOCAL MAX ID COMPARES 00017 MAX ID 10000000
+Replacing id 00017 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00017
+SPACES AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+SPLA ADDS APPLICANT ********************** 00003
+SPACES FILLED [1, 0, 2, 1, 1, 1, 2]
+BEDS FILLED [1, 0, 1, 1, 0, 1, 0]
+Max Current SPLA : 
+8
+Max Current LAHSA: 
+4
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment8
+Local Max LAHSA Assignment4
+Till Now Visited set(['00022', '00009', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00003
+LAHSA ADDS APPLICANT 00018
+SPACES FILLED [1, 0, 2, 1, 1, 1, 2]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+8
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 8
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00022', '00009', '00018', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+SPLA ADDS APPLICANT ********************** 00017
+SPACES FILLED [1, 1, 3, 2, 2, 2, 3]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00022', '00009', '00018', '00003', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00017
+LAHSA IS OVER 
+ No of Spaces[1, 1, 3, 2, 2, 2, 3]
+CURRENT SPLA 14
+VISITED SET set(['00022', '00009', '00018', '00003', '00017'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[1, 1, 3, 2, 2, 2, 3]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 8 Max SPLA 14 LOCAL MAX ID COMPARES 00017 MAX ID 10000000
+Replacing id 00017 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00017
+SPACES AFTER REMOVAL [1, 0, 2, 1, 1, 1, 2]
+BEDS AFTER REMOVAL [1, 1, 2, 1, 1, 1, 0]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 4 Max LAHSA 7 LOCAL MAX ID COMPARES 00018 MAX ID 10000000
+Replacing id 00018 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [1, 0, 2, 1, 1, 1, 2]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 14 Max SPLA 14 LOCAL MAX ID COMPARES 00003 MAX ID 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00003
+SPLA REMOVES APPLICANT 00003
+SPACES AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+SPLA ADDS APPLICANT ********************** 00018
+SPACES FILLED [1, 1, 2, 0, 1, 0, 1]
+BEDS FILLED [1, 0, 1, 1, 0, 1, 0]
+Max Current SPLA : 
+6
+Max Current LAHSA: 
+4
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment6
+Local Max LAHSA Assignment4
+Till Now Visited set(['00022', '00009', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+LAHSA IS OVER 
+ No of Spaces[1, 1, 2, 0, 1, 0, 1]
+CURRENT SPLA 6
+VISITED SET set(['00022', '00009', '00018'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[1, 1, 2, 0, 1, 0, 1]
+Adding Applicant ID 00017
+Lower ID00017
+Total Efficiency 12
+ Returning12id00017
+Adding Applicant ID 00003
+Lower ID00003
+Total Efficiency 17
+ Returning17id00003
+TOTAL EFFICIENCY : 17 LOWER ID 00003
+ CALL RETURNED IN SPLA Max Spla17Max Lahsa4Max Id00003
+LOCAL MAX 14 Max SPLA 17 LOCAL MAX ID COMPARES 00018 MAX ID 00003
+Replacing id 00018 WITH 00003
+LOCAL MAX LAHSA 4LOCAL MAX SPLA 17 LOCAL MAX 00003
+SPLA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+CALL RETURNED IN LAHSA Max Spla 17Max Lahsa 4Max Id 00003
+LOCAL MAX 0 Max LAHSA 4 LOCAL MAX ID COMPARES 00022 MAX ID 00003
+Replacing id 00022 WITH 00003
+LOCAL MAX LAHSA 4LOCAL MAX SPLA 17 LOCAL MAX 00003
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+BEDS AFTER REMOVAL [0, 0, 0, 0, 0, 0, 0]
+LAHSA ADDS APPLICANT 00018
+SPACES FILLED [1, 0, 1, 0, 0, 0, 1]
+BEDS FILLED [0, 1, 1, 0, 1, 0, 0]
+Max Current SPLA : 
+3
+Max Current LAHSA: 
+3
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 3
+Local Max LAHSA Assignment 3
+Till Now Visited set(['00009', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+SPLA ADDS APPLICANT ********************** 00017
+SPACES FILLED [1, 1, 2, 1, 1, 1, 2]
+BEDS FILLED [0, 1, 1, 0, 1, 0, 0]
+Max Current SPLA : 
+9
+Max Current LAHSA: 
+3
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment9
+Local Max LAHSA Assignment3
+Till Now Visited set(['00017', '00009', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00017
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [1, 1, 2, 1, 1, 1, 2]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+9
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 9
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00017', '00009', '00018', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA ADDS APPLICANT ********************** 00003
+SPACES FILLED [1, 1, 3, 2, 2, 2, 3]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00017', '00009', '00003', '00018', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00003
+LAHSA IS OVER 
+ No of Spaces[1, 1, 3, 2, 2, 2, 3]
+CURRENT SPLA 14
+VISITED SET set(['00017', '00009', '00003', '00018', '00022'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[1, 1, 3, 2, 2, 2, 3]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 9 Max SPLA 14 LOCAL MAX ID COMPARES 00003 MAX ID 10000000
+Replacing id 00003 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00003
+SPACES AFTER REMOVAL [1, 1, 2, 1, 1, 1, 2]
+BEDS AFTER REMOVAL [1, 1, 2, 1, 1, 1, 0]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 3 Max LAHSA 7 LOCAL MAX ID COMPARES 00022 MAX ID 10000000
+Replacing id 00022 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [1, 1, 2, 1, 1, 1, 2]
+BEDS AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 3 Max SPLA 14 LOCAL MAX ID COMPARES 00017 MAX ID 10000000
+Replacing id 00017 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00017
+SPACES AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+BEDS AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+SPLA ADDS APPLICANT ********************** 00003
+SPACES FILLED [1, 0, 2, 1, 1, 1, 2]
+BEDS FILLED [0, 1, 1, 0, 1, 0, 0]
+Max Current SPLA : 
+8
+Max Current LAHSA: 
+3
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment8
+Local Max LAHSA Assignment3
+Till Now Visited set(['00009', '00003', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00003
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [1, 0, 2, 1, 1, 1, 2]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+8
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 8
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00022', '00009', '00003', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA ADDS APPLICANT ********************** 00017
+SPACES FILLED [1, 1, 3, 2, 2, 2, 3]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00022', '00009', '00003', '00018', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00017
+LAHSA IS OVER 
+ No of Spaces[1, 1, 3, 2, 2, 2, 3]
+CURRENT SPLA 14
+VISITED SET set(['00022', '00009', '00003', '00018', '00017'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[1, 1, 3, 2, 2, 2, 3]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 8 Max SPLA 14 LOCAL MAX ID COMPARES 00017 MAX ID 10000000
+Replacing id 00017 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00017
+SPACES AFTER REMOVAL [1, 0, 2, 1, 1, 1, 2]
+BEDS AFTER REMOVAL [1, 1, 2, 1, 1, 1, 0]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 3 Max LAHSA 7 LOCAL MAX ID COMPARES 00022 MAX ID 10000000
+Replacing id 00022 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [1, 0, 2, 1, 1, 1, 2]
+BEDS AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 14 Max SPLA 14 LOCAL MAX ID COMPARES 00003 MAX ID 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00003
+SPLA REMOVES APPLICANT 00003
+SPACES AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+BEDS AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 00003
+LOCAL MAX 4 Max LAHSA 7 LOCAL MAX ID COMPARES 00018 MAX ID 00003
+Replacing id 00018 WITH 00003
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00003
+LAHSA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+BEDS AFTER REMOVAL [0, 0, 0, 0, 0, 0, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+------------------------------------------------------------------------------------------------------------
+MAX SPLA FIRST APPLICANT 14
+APPLICANT 00003
+SPLA CURRENT FINAL 14 LAHSA FINAL 7 FINAL APPLICANT 00003
+Removing First Applicant : 00009
+SPACES AFTER REMOVAL [0, 0, 0, 0, 0, 0, 0]
+**************************************************** FIRST
+Adding First Applicant    00017
+SPACES [0, 1, 1, 1, 1, 1, 1]
+MAX CURRENT SPLA6MAX CURRENT LAHS0
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment6
+Local Max LAHSA Assignment0
+Till Now Visited set(['00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00017
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [0, 1, 1, 1, 1, 1, 1]
+BEDS FILLED [1, 0, 1, 1, 0, 1, 0]
+Max Current SPLA : 
+6
+Max Current LAHSA: 
+4
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 6
+Local Max LAHSA Assignment 4
+Till Now Visited set(['00017', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA ADDS APPLICANT ********************** 00009
+SPACES FILLED [1, 1, 2, 1, 1, 1, 2]
+BEDS FILLED [1, 0, 1, 1, 0, 1, 0]
+Max Current SPLA : 
+9
+Max Current LAHSA: 
+4
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment9
+Local Max LAHSA Assignment4
+Till Now Visited set(['00017', '00009', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+LAHSA ADDS APPLICANT 00018
+SPACES FILLED [1, 1, 2, 1, 1, 1, 2]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+9
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 9
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00017', '00009', '00018', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+SPLA ADDS APPLICANT ********************** 00003
+SPACES FILLED [1, 1, 3, 2, 2, 2, 3]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00017', '00009', '00003', '00018', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00003
+LAHSA IS OVER 
+ No of Spaces[1, 1, 3, 2, 2, 2, 3]
+CURRENT SPLA 14
+VISITED SET set(['00017', '00009', '00003', '00018', '00022'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[1, 1, 3, 2, 2, 2, 3]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 9 Max SPLA 14 LOCAL MAX ID COMPARES 00003 MAX ID 10000000
+Replacing id 00003 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00003
+SPACES AFTER REMOVAL [1, 1, 2, 1, 1, 1, 2]
+BEDS AFTER REMOVAL [1, 1, 2, 1, 1, 1, 0]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 4 Max LAHSA 7 LOCAL MAX ID COMPARES 00018 MAX ID 10000000
+Replacing id 00018 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [1, 1, 2, 1, 1, 1, 2]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 6 Max SPLA 14 LOCAL MAX ID COMPARES 00009 MAX ID 10000000
+Replacing id 00009 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 1, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+SPLA ADDS APPLICANT ********************** 00003
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [1, 0, 1, 1, 0, 1, 0]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+4
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment11
+Local Max LAHSA Assignment4
+Till Now Visited set(['00017', '00003', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00003
+LAHSA ADDS APPLICANT 00009
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 11
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00017', '00009', '00003', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+SPLA ADDS APPLICANT ********************** 00018
+SPACES FILLED [0, 2, 3, 2, 3, 2, 2]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00017', '00009', '00018', '00003', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+LAHSA IS OVER 
+ No of Spaces[0, 2, 3, 2, 3, 2, 2]
+CURRENT SPLA 14
+VISITED SET set(['00017', '00009', '00018', '00003', '00022'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[0, 2, 3, 2, 3, 2, 2]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 11 Max SPLA 14 LOCAL MAX ID COMPARES 00018 MAX ID 10000000
+Replacing id 00018 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [2, 0, 2, 1, 0, 1, 1]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 4 Max LAHSA 7 LOCAL MAX ID COMPARES 00009 MAX ID 10000000
+Replacing id 00009 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+LAHSA ADDS APPLICANT 00018
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 11
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00017', '00018', '00003', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+SPLA ADDS APPLICANT ********************** 00009
+SPACES FILLED [1, 1, 3, 2, 2, 2, 3]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00017', '00009', '00018', '00003', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+LAHSA IS OVER 
+ No of Spaces[1, 1, 3, 2, 2, 2, 3]
+CURRENT SPLA 14
+VISITED SET set(['00017', '00009', '00018', '00003', '00022'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[1, 1, 3, 2, 2, 2, 3]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 11 Max SPLA 14 LOCAL MAX ID COMPARES 00009 MAX ID 10000000
+Replacing id 00009 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [1, 1, 2, 1, 1, 1, 0]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 7 Max LAHSA 7 LOCAL MAX ID COMPARES 00018 MAX ID 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00018
+LAHSA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id00018
+LOCAL MAX 14 Max SPLA 14 LOCAL MAX ID COMPARES 00003 MAX ID 00018
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00003
+SPLA REMOVES APPLICANT 00003
+SPACES AFTER REMOVAL [0, 1, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+SPLA ADDS APPLICANT ********************** 00018
+SPACES FILLED [0, 2, 2, 1, 2, 1, 1]
+BEDS FILLED [1, 0, 1, 1, 0, 1, 0]
+Max Current SPLA : 
+9
+Max Current LAHSA: 
+4
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment9
+Local Max LAHSA Assignment4
+Till Now Visited set(['00017', '00018', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+LAHSA ADDS APPLICANT 00009
+SPACES FILLED [0, 2, 2, 1, 2, 1, 1]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+9
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 9
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00017', '00009', '00018', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+SPLA ADDS APPLICANT ********************** 00003
+SPACES FILLED [0, 2, 3, 2, 3, 2, 2]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00017', '00009', '00003', '00018', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00003
+LAHSA IS OVER 
+ No of Spaces[0, 2, 3, 2, 3, 2, 2]
+CURRENT SPLA 14
+VISITED SET set(['00017', '00009', '00003', '00018', '00022'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[0, 2, 3, 2, 3, 2, 2]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 9 Max SPLA 14 LOCAL MAX ID COMPARES 00003 MAX ID 10000000
+Replacing id 00003 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00003
+SPACES AFTER REMOVAL [0, 2, 2, 1, 2, 1, 1]
+BEDS AFTER REMOVAL [2, 0, 2, 1, 0, 1, 1]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 4 Max LAHSA 7 LOCAL MAX ID COMPARES 00009 MAX ID 10000000
+Replacing id 00009 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 2, 2, 1, 2, 1, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 14 Max SPLA 14 LOCAL MAX ID COMPARES 00018 MAX ID 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00018
+SPLA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [0, 1, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 00018
+LOCAL MAX 0 Max LAHSA 7 LOCAL MAX ID COMPARES 00022 MAX ID 00018
+Replacing id 00022 WITH 00018
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00018
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [0, 1, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [0, 0, 0, 0, 0, 0, 0]
+LAHSA ADDS APPLICANT 00009
+SPACES FILLED [0, 1, 1, 1, 1, 1, 1]
+BEDS FILLED [1, 0, 1, 0, 0, 0, 1]
+Max Current SPLA : 
+6
+Max Current LAHSA: 
+3
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 6
+Local Max LAHSA Assignment 3
+Till Now Visited set(['00017', '00009'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+SPLA ADDS APPLICANT ********************** 00003
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [1, 0, 1, 0, 0, 0, 1]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+3
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment11
+Local Max LAHSA Assignment3
+Till Now Visited set(['00017', '00009', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00003
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 11
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00017', '00009', '00003', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA ADDS APPLICANT ********************** 00018
+SPACES FILLED [0, 2, 3, 2, 3, 2, 2]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00017', '00009', '00018', '00003', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+LAHSA IS OVER 
+ No of Spaces[0, 2, 3, 2, 3, 2, 2]
+CURRENT SPLA 14
+VISITED SET set(['00017', '00009', '00018', '00003', '00022'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[0, 2, 3, 2, 3, 2, 2]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 11 Max SPLA 14 LOCAL MAX ID COMPARES 00018 MAX ID 10000000
+Replacing id 00018 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [2, 0, 2, 1, 0, 1, 1]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 3 Max LAHSA 7 LOCAL MAX ID COMPARES 00022 MAX ID 10000000
+Replacing id 00022 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+LAHSA ADDS APPLICANT 00018
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [1, 1, 2, 0, 1, 0, 1]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+6
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 11
+Local Max LAHSA Assignment 6
+Till Now Visited set(['00017', '00009', '00018', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+SPLA IS OVER 
+ No of Spaces[0, 1, 2, 2, 2, 2, 2]
+CURRENT SPLA 11
+VISITED SET set(['00017', '00009', '00018', '00003'])
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment11
+Local Max LAHSA Assignment6
+Till Now Visited set(['00017', '00009', '00018', '00003'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [2, 1, 3, 1, 1, 1, 1]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+10
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 11
+Local Max LAHSA Assignment 10
+Till Now Visited set(['00017', '00009', '00018', '00003', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA IS OVER 
+ No of Spaces[0, 1, 2, 2, 2, 2, 2]
+CURRENT SPLA 11
+VISITED SET set(['00017', '00009', '00018', '00003', '00022'])
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment11
+Local Max LAHSA Assignment10
+Till Now Visited set(['00017', '00009', '00018', '00003', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+LAHSA IS OVER 
+ No of Spaces[0, 1, 2, 2, 2, 2, 2]
+CURRENT SPLA 11
+VISITED SET set(['00017', '00009', '00018', '00003', '00022'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[0, 1, 2, 2, 2, 2, 2]
+TOTAL EFFICIENCY : 11 LOWER ID 10000000
+ Return when SPLA IS OVER MAX SPLA :11 Max Lahsa:10 Max id10000000
+CALL RETURNED IN LAHSA Max Spla 11Max Lahsa 10Max Id 10000000
+LOCAL MAX 6 Max LAHSA 10 LOCAL MAX ID COMPARES 00022 MAX ID 10000000
+Replacing id 00022 WITH 10000000
+LOCAL MAX LAHSA 10LOCAL MAX SPLA 11 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [1, 1, 2, 0, 1, 0, 1]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ Return when SPLA IS OVER MAX SPLA :11 Max Lahsa:10 Max id10000000
+CALL RETURNED IN LAHSA Max Spla 11Max Lahsa 10Max Id 10000000
+LOCAL MAX 7 Max LAHSA 10 LOCAL MAX ID COMPARES 00018 MAX ID 10000000
+Replacing id 00018 WITH 10000000
+LOCAL MAX LAHSA 10LOCAL MAX SPLA 11 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla11Max Lahsa10Max Id10000000
+LOCAL MAX 6 Max SPLA 11 LOCAL MAX ID COMPARES 00003 MAX ID 10000000
+Replacing id 00003 WITH 10000000
+LOCAL MAX LAHSA 10LOCAL MAX SPLA 11 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00003
+SPACES AFTER REMOVAL [0, 1, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+SPLA ADDS APPLICANT ********************** 00018
+SPACES FILLED [0, 2, 2, 1, 2, 1, 1]
+BEDS FILLED [1, 0, 1, 0, 0, 0, 1]
+Max Current SPLA : 
+9
+Max Current LAHSA: 
+3
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment9
+Local Max LAHSA Assignment3
+Till Now Visited set(['00017', '00009', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [0, 2, 2, 1, 2, 1, 1]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+9
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 9
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00017', '00009', '00018', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA ADDS APPLICANT ********************** 00003
+SPACES FILLED [0, 2, 3, 2, 3, 2, 2]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00017', '00009', '00003', '00018', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00003
+LAHSA IS OVER 
+ No of Spaces[0, 2, 3, 2, 3, 2, 2]
+CURRENT SPLA 14
+VISITED SET set(['00017', '00009', '00003', '00018', '00022'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[0, 2, 3, 2, 3, 2, 2]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 9 Max SPLA 14 LOCAL MAX ID COMPARES 00003 MAX ID 10000000
+Replacing id 00003 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00003
+SPACES AFTER REMOVAL [0, 2, 2, 1, 2, 1, 1]
+BEDS AFTER REMOVAL [2, 0, 2, 1, 0, 1, 1]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 3 Max LAHSA 7 LOCAL MAX ID COMPARES 00022 MAX ID 10000000
+Replacing id 00022 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [0, 2, 2, 1, 2, 1, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 11 Max SPLA 14 LOCAL MAX ID COMPARES 00018 MAX ID 10000000
+Replacing id 00018 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [0, 1, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 7 Max LAHSA 7 LOCAL MAX ID COMPARES 00009 MAX ID 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00009
+LAHSA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 1, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [0, 0, 0, 0, 0, 0, 0]
+LAHSA ADDS APPLICANT 00018
+SPACES FILLED [0, 1, 1, 1, 1, 1, 1]
+BEDS FILLED [0, 1, 1, 0, 1, 0, 0]
+Max Current SPLA : 
+6
+Max Current LAHSA: 
+3
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 6
+Local Max LAHSA Assignment 3
+Till Now Visited set(['00017', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+SPLA ADDS APPLICANT ********************** 00009
+SPACES FILLED [1, 1, 2, 1, 1, 1, 2]
+BEDS FILLED [0, 1, 1, 0, 1, 0, 0]
+Max Current SPLA : 
+9
+Max Current LAHSA: 
+3
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment9
+Local Max LAHSA Assignment3
+Till Now Visited set(['00017', '00009', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [1, 1, 2, 1, 1, 1, 2]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+9
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 9
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00017', '00009', '00018', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA ADDS APPLICANT ********************** 00003
+SPACES FILLED [1, 1, 3, 2, 2, 2, 3]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00017', '00009', '00003', '00018', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00003
+LAHSA IS OVER 
+ No of Spaces[1, 1, 3, 2, 2, 2, 3]
+CURRENT SPLA 14
+VISITED SET set(['00017', '00009', '00003', '00018', '00022'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[1, 1, 3, 2, 2, 2, 3]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 9 Max SPLA 14 LOCAL MAX ID COMPARES 00003 MAX ID 10000000
+Replacing id 00003 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00003
+SPACES AFTER REMOVAL [1, 1, 2, 1, 1, 1, 2]
+BEDS AFTER REMOVAL [1, 1, 2, 1, 1, 1, 0]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 3 Max LAHSA 7 LOCAL MAX ID COMPARES 00022 MAX ID 10000000
+Replacing id 00022 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [1, 1, 2, 1, 1, 1, 2]
+BEDS AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 6 Max SPLA 14 LOCAL MAX ID COMPARES 00009 MAX ID 10000000
+Replacing id 00009 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 1, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+SPLA ADDS APPLICANT ********************** 00003
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [0, 1, 1, 0, 1, 0, 0]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+3
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment11
+Local Max LAHSA Assignment3
+Till Now Visited set(['00017', '00003', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00003
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 11
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00017', '00003', '00018', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA ADDS APPLICANT ********************** 00009
+SPACES FILLED [1, 1, 3, 2, 2, 2, 3]
+BEDS FILLED [1, 1, 2, 1, 1, 1, 0]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00017', '00009', '00003', '00018', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+LAHSA IS OVER 
+ No of Spaces[1, 1, 3, 2, 2, 2, 3]
+CURRENT SPLA 14
+VISITED SET set(['00017', '00009', '00003', '00018', '00022'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[1, 1, 3, 2, 2, 2, 3]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 11 Max SPLA 14 LOCAL MAX ID COMPARES 00009 MAX ID 10000000
+Replacing id 00009 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [1, 1, 2, 1, 1, 1, 0]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 3 Max LAHSA 7 LOCAL MAX ID COMPARES 00022 MAX ID 10000000
+Replacing id 00022 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+LAHSA ADDS APPLICANT 00009
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [1, 1, 2, 0, 1, 0, 1]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+6
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 11
+Local Max LAHSA Assignment 6
+Till Now Visited set(['00017', '00009', '00003', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+SPLA IS OVER 
+ No of Spaces[0, 1, 2, 2, 2, 2, 2]
+CURRENT SPLA 11
+VISITED SET set(['00017', '00009', '00003', '00018'])
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment11
+Local Max LAHSA Assignment6
+Till Now Visited set(['00017', '00009', '00003', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [0, 1, 2, 2, 2, 2, 2]
+BEDS FILLED [2, 1, 3, 1, 1, 1, 1]
+Max Current SPLA : 
+11
+Max Current LAHSA: 
+10
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 11
+Local Max LAHSA Assignment 10
+Till Now Visited set(['00017', '00009', '00003', '00018', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA IS OVER 
+ No of Spaces[0, 1, 2, 2, 2, 2, 2]
+CURRENT SPLA 11
+VISITED SET set(['00017', '00009', '00003', '00018', '00022'])
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment11
+Local Max LAHSA Assignment10
+Till Now Visited set(['00017', '00009', '00003', '00018', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+LAHSA IS OVER 
+ No of Spaces[0, 1, 2, 2, 2, 2, 2]
+CURRENT SPLA 11
+VISITED SET set(['00017', '00009', '00003', '00018', '00022'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[0, 1, 2, 2, 2, 2, 2]
+TOTAL EFFICIENCY : 11 LOWER ID 10000000
+ Return when SPLA IS OVER MAX SPLA :11 Max Lahsa:10 Max id10000000
+CALL RETURNED IN LAHSA Max Spla 11Max Lahsa 10Max Id 10000000
+LOCAL MAX 6 Max LAHSA 10 LOCAL MAX ID COMPARES 00022 MAX ID 10000000
+Replacing id 00022 WITH 10000000
+LOCAL MAX LAHSA 10LOCAL MAX SPLA 11 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [1, 1, 2, 0, 1, 0, 1]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ Return when SPLA IS OVER MAX SPLA :11 Max Lahsa:10 Max id10000000
+CALL RETURNED IN LAHSA Max Spla 11Max Lahsa 10Max Id 10000000
+LOCAL MAX 7 Max LAHSA 10 LOCAL MAX ID COMPARES 00009 MAX ID 10000000
+Replacing id 00009 WITH 10000000
+LOCAL MAX LAHSA 10LOCAL MAX SPLA 11 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 1, 2, 2, 2, 2, 2]
+BEDS AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla11Max Lahsa10Max Id10000000
+LOCAL MAX 14 Max SPLA 11 LOCAL MAX ID COMPARES 00003 MAX ID 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00003
+SPLA REMOVES APPLICANT 00003
+SPACES AFTER REMOVAL [0, 1, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 00003
+LOCAL MAX 7 Max LAHSA 7 LOCAL MAX ID COMPARES 00018 MAX ID 00003
+Replacing id 00018 WITH 00003
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00003
+LAHSA REMOVES APPLICANT 00018
+SPACES AFTER REMOVAL [0, 1, 1, 1, 1, 1, 1]
+BEDS AFTER REMOVAL [0, 0, 0, 0, 0, 0, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+------------------------------------------------------------------------------------------------------------
+MAX SPLA FIRST APPLICANT 14
+APPLICANT 00003
+SPLA CURRENT FINAL 14 LAHSA FINAL 7 FINAL APPLICANT 00003
+Removing First Applicant : 00017
+SPACES AFTER REMOVAL [0, 0, 0, 0, 0, 0, 0]
+**************************************************** FIRST
+Adding First Applicant    00018
+SPACES [0, 1, 1, 0, 1, 0, 0]
+MAX CURRENT SPLA3MAX CURRENT LAHS0
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment3
+Local Max LAHSA Assignment0
+Till Now Visited set(['00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00018
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [0, 1, 1, 0, 1, 0, 0]
+BEDS FILLED [1, 0, 1, 1, 0, 1, 0]
+Max Current SPLA : 
+3
+Max Current LAHSA: 
+4
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 3
+Local Max LAHSA Assignment 4
+Till Now Visited set(['00022', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA ADDS APPLICANT ********************** 00017
+SPACES FILLED [0, 2, 2, 1, 2, 1, 1]
+BEDS FILLED [1, 0, 1, 1, 0, 1, 0]
+Max Current SPLA : 
+9
+Max Current LAHSA: 
+4
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment9
+Local Max LAHSA Assignment4
+Till Now Visited set(['00022', '00018', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00017
+LAHSA ADDS APPLICANT 00009
+SPACES FILLED [0, 2, 2, 1, 2, 1, 1]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+9
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 9
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00022', '00009', '00018', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+SPLA ADDS APPLICANT ********************** 00003
+SPACES FILLED [0, 2, 3, 2, 3, 2, 2]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00022', '00009', '00003', '00018', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00003
+LAHSA IS OVER 
+ No of Spaces[0, 2, 3, 2, 3, 2, 2]
+CURRENT SPLA 14
+VISITED SET set(['00022', '00009', '00003', '00018', '00017'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[0, 2, 3, 2, 3, 2, 2]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 9 Max SPLA 14 LOCAL MAX ID COMPARES 00003 MAX ID 10000000
+Replacing id 00003 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00003
+SPACES AFTER REMOVAL [0, 2, 2, 1, 2, 1, 1]
+BEDS AFTER REMOVAL [2, 0, 2, 1, 0, 1, 1]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 4 Max LAHSA 7 LOCAL MAX ID COMPARES 00009 MAX ID 10000000
+Replacing id 00009 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 2, 2, 1, 2, 1, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 3 Max SPLA 14 LOCAL MAX ID COMPARES 00017 MAX ID 10000000
+Replacing id 00017 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00017
+SPACES AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+SPLA ADDS APPLICANT ********************** 00009
+SPACES FILLED [1, 1, 2, 0, 1, 0, 1]
+BEDS FILLED [1, 0, 1, 1, 0, 1, 0]
+Max Current SPLA : 
+6
+Max Current LAHSA: 
+4
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment6
+Local Max LAHSA Assignment4
+Till Now Visited set(['00022', '00009', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+LAHSA IS OVER 
+ No of Spaces[1, 1, 2, 0, 1, 0, 1]
+CURRENT SPLA 6
+VISITED SET set(['00022', '00009', '00018'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[1, 1, 2, 0, 1, 0, 1]
+Adding Applicant ID 00017
+Lower ID00017
+Total Efficiency 12
+ Returning12id00017
+Adding Applicant ID 00003
+Lower ID00003
+Total Efficiency 17
+ Returning17id00003
+TOTAL EFFICIENCY : 17 LOWER ID 00003
+ CALL RETURNED IN SPLA Max Spla17Max Lahsa4Max Id00003
+LOCAL MAX 14 Max SPLA 17 LOCAL MAX ID COMPARES 00009 MAX ID 00003
+Replacing id 00009 WITH 00003
+LOCAL MAX LAHSA 4LOCAL MAX SPLA 17 LOCAL MAX 00003
+SPLA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+SPLA ADDS APPLICANT ********************** 00003
+SPACES FILLED [0, 1, 2, 1, 2, 1, 1]
+BEDS FILLED [1, 0, 1, 1, 0, 1, 0]
+Max Current SPLA : 
+8
+Max Current LAHSA: 
+4
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment8
+Local Max LAHSA Assignment4
+Till Now Visited set(['00022', '00003', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00003
+LAHSA ADDS APPLICANT 00009
+SPACES FILLED [0, 1, 2, 1, 2, 1, 1]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+8
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 8
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00022', '00009', '00003', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+SPLA ADDS APPLICANT ********************** 00017
+SPACES FILLED [0, 2, 3, 2, 3, 2, 2]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00022', '00009', '00003', '00018', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00017
+LAHSA IS OVER 
+ No of Spaces[0, 2, 3, 2, 3, 2, 2]
+CURRENT SPLA 14
+VISITED SET set(['00022', '00009', '00003', '00018', '00017'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[0, 2, 3, 2, 3, 2, 2]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 8 Max SPLA 14 LOCAL MAX ID COMPARES 00017 MAX ID 10000000
+Replacing id 00017 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00017
+SPACES AFTER REMOVAL [0, 1, 2, 1, 2, 1, 1]
+BEDS AFTER REMOVAL [2, 0, 2, 1, 0, 1, 1]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 4 Max LAHSA 7 LOCAL MAX ID COMPARES 00009 MAX ID 10000000
+Replacing id 00009 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 1, 2, 1, 2, 1, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 17 Max SPLA 14 LOCAL MAX ID COMPARES 00003 MAX ID 10000000
+LOCAL MAX LAHSA 4LOCAL MAX SPLA 17 LOCAL MAX 00003
+SPLA REMOVES APPLICANT 00003
+SPACES AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+BEDS AFTER REMOVAL [1, 0, 1, 1, 0, 1, 0]
+CALL RETURNED IN LAHSA Max Spla 17Max Lahsa 4Max Id 00003
+LOCAL MAX 0 Max LAHSA 4 LOCAL MAX ID COMPARES 00022 MAX ID 00003
+Replacing id 00022 WITH 00003
+LOCAL MAX LAHSA 4LOCAL MAX SPLA 17 LOCAL MAX 00003
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+BEDS AFTER REMOVAL [0, 0, 0, 0, 0, 0, 0]
+LAHSA ADDS APPLICANT 00009
+SPACES FILLED [0, 1, 1, 0, 1, 0, 0]
+BEDS FILLED [1, 0, 1, 0, 0, 0, 1]
+Max Current SPLA : 
+3
+Max Current LAHSA: 
+3
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 3
+Local Max LAHSA Assignment 3
+Till Now Visited set(['00009', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00009
+SPLA ADDS APPLICANT ********************** 00017
+SPACES FILLED [0, 2, 2, 1, 2, 1, 1]
+BEDS FILLED [1, 0, 1, 0, 0, 0, 1]
+Max Current SPLA : 
+9
+Max Current LAHSA: 
+3
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment9
+Local Max LAHSA Assignment3
+Till Now Visited set(['00017', '00009', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00017
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [0, 2, 2, 1, 2, 1, 1]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+9
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 9
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00017', '00009', '00018', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA ADDS APPLICANT ********************** 00003
+SPACES FILLED [0, 2, 3, 2, 3, 2, 2]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00017', '00009', '00003', '00018', '00022'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00003
+LAHSA IS OVER 
+ No of Spaces[0, 2, 3, 2, 3, 2, 2]
+CURRENT SPLA 14
+VISITED SET set(['00017', '00009', '00003', '00018', '00022'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[0, 2, 3, 2, 3, 2, 2]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 9 Max SPLA 14 LOCAL MAX ID COMPARES 00003 MAX ID 10000000
+Replacing id 00003 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00003
+SPACES AFTER REMOVAL [0, 2, 2, 1, 2, 1, 1]
+BEDS AFTER REMOVAL [2, 0, 2, 1, 0, 1, 1]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 3 Max LAHSA 7 LOCAL MAX ID COMPARES 00022 MAX ID 10000000
+Replacing id 00022 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [0, 2, 2, 1, 2, 1, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 3 Max SPLA 14 LOCAL MAX ID COMPARES 00017 MAX ID 10000000
+Replacing id 00017 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00017
+SPACES AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+BEDS AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+SPLA ADDS APPLICANT ********************** 00003
+SPACES FILLED [0, 1, 2, 1, 2, 1, 1]
+BEDS FILLED [1, 0, 1, 0, 0, 0, 1]
+Max Current SPLA : 
+8
+Max Current LAHSA: 
+3
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment8
+Local Max LAHSA Assignment3
+Till Now Visited set(['00009', '00003', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00003
+LAHSA ADDS APPLICANT 00022
+SPACES FILLED [0, 1, 2, 1, 2, 1, 1]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+8
+Max Current LAHSA: 
+7
+**********************************************************************************************
+Player: SPLA 
+Local Max SPLA Assignment 8
+Local Max LAHSA Assignment 7
+Till Now Visited set(['00022', '00009', '00003', '00018'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00022
+SPLA ADDS APPLICANT ********************** 00017
+SPACES FILLED [0, 2, 3, 2, 3, 2, 2]
+BEDS FILLED [2, 0, 2, 1, 0, 1, 1]
+Max Current SPLA : 
+14
+Max Current LAHSA: 
+7
+**********************************************************************************************
+LAHSA Player
+Local Max SPLA Assignment14
+Local Max LAHSA Assignment7
+Till Now Visited set(['00022', '00009', '00003', '00018', '00017'])
+Spla Eligible set(['00017', '00009', '00018', '00003'])
+Lahsa Eligible set(['00022', '00009', '00018'])
+Parent : 00017
+LAHSA IS OVER 
+ No of Spaces[0, 2, 3, 2, 3, 2, 2]
+CURRENT SPLA 14
+VISITED SET set(['00022', '00009', '00003', '00018', '00017'])
+ INSIDE CHECK ALL APPLICANTS FOR SPLA
+ noOfSpaces[0, 2, 3, 2, 3, 2, 2]
+TOTAL EFFICIENCY : 14 LOWER ID 10000000
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 8 Max SPLA 14 LOCAL MAX ID COMPARES 00017 MAX ID 10000000
+Replacing id 00017 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+SPLA REMOVES APPLICANT 00017
+SPACES AFTER REMOVAL [0, 1, 2, 1, 2, 1, 1]
+BEDS AFTER REMOVAL [2, 0, 2, 1, 0, 1, 1]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 10000000
+LOCAL MAX 3 Max LAHSA 7 LOCAL MAX ID COMPARES 00022 MAX ID 10000000
+Replacing id 00022 WITH 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 10000000
+LAHSA REMOVES APPLICANT 00022
+SPACES AFTER REMOVAL [0, 1, 2, 1, 2, 1, 1]
+BEDS AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+ CALL RETURNED IN SPLA Max Spla14Max Lahsa7Max Id10000000
+LOCAL MAX 14 Max SPLA 14 LOCAL MAX ID COMPARES 00003 MAX ID 10000000
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00003
+SPLA REMOVES APPLICANT 00003
+SPACES AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+BEDS AFTER REMOVAL [1, 0, 1, 0, 0, 0, 1]
+CALL RETURNED IN LAHSA Max Spla 14Max Lahsa 7Max Id 00003
+LOCAL MAX 4 Max LAHSA 7 LOCAL MAX ID COMPARES 00009 MAX ID 00003
+Replacing id 00009 WITH 00003
+LOCAL MAX LAHSA 7LOCAL MAX SPLA 14 LOCAL MAX 00003
+LAHSA REMOVES APPLICANT 00009
+SPACES AFTER REMOVAL [0, 1, 1, 0, 1, 0, 0]
+BEDS AFTER REMOVAL [0, 0, 0, 0, 0, 0, 0]
+LAHSA AFTER UPDATINGset(['00017', '00009', '00018', '00003'])
+------------------------------------------------------------------------------------------------------------
+MAX SPLA FIRST APPLICANT 14
+APPLICANT 00003
+SPLA CURRENT FINAL 14 LAHSA FINAL 7 FINAL APPLICANT 00003
+Removing First Applicant : 00018
+SPACES AFTER REMOVAL [0, 0, 0, 0, 0, 0, 0]

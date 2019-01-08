@@ -1,0 +1,705 @@
+/Users/sonaligujarathi/PycharmProjects/ArtificialIntelligence/venv/bin/python /Users/sonaligujarathi/PycharmProjects/ArtificialIntelligence/venv/hw2/HW2.py
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1]
+ BOTH 00004
+ BOTH 00003
+ SPLA ONLY 00001
+ LAHSA ONLY  00002
+OrderedDict([('00004', True), ('00003', True), ('00001', True), ('00002', True)])
+2
+***********************************************************************
+Player: SPLA
+Applicants :
+OrderedDict([('00001', True), ('00002', True), ('00003', True), ('00004', True)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent :
+Beds Weekly  : [1, 1, 1, 1, 1, 1, 1]
+Spaces Weekly : [0, 0, 0, 1, 1, 1, 1]
+Max Current SPLA 3
+Max Current LAHSA:
+0
+SPLA REMOVES Applicant : 00001
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', False), ('00002', True), ('00003', True), ('00004', True)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00001
+Beds Weekly  : [0, 0, 0, 0, 0, 0, 0]
+Spaces Weekly : [0, 0, 0, 1, 1, 1, 1]
+ Max Current SPLA :
+3
+ Max Current LAHSA:
+7
+ LAHSA REMOVES Applicant : 00002
+***********************************************************************
+Player: SPLA
+Applicants :
+OrderedDict([('00001', False), ('00002', False), ('00003', True), ('00004', True)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00002
+Beds Weekly  : [0, 0, 0, 0, 0, 0, 0]
+Spaces Weekly : [0, 0, 0, 0, 1, 1, 1]
+Max Current SPLA 4
+Max Current LAHSA:
+7
+SPLA REMOVES Applicant : 00003
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', False), ('00002', False), ('00003', False), ('00004', True)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00003
+Lahsa Node : 00003
+Local Max Id  100000
+Local Max Spla -1
+Local Max Lahsa -1
+***********************************************************************
+Player: SPLA
+Applicants :
+OrderedDict([('00001', False), ('00002', False), ('00003', False), ('00004', True)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00003
+Beds Weekly  : [0, 0, 0, 0, 0, 0, 0]
+Spaces Weekly : [0, 0, 0, 0, 0, 0, 0]
+Max Current SPLA 7
+Max Current LAHSA:
+7
+SPLA REMOVES Applicant : 00004
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', False), ('00002', False), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00004
+MAX ID 00004
+Max Spla7
+Max Lahsa7
+SPLA ADDING Applicant : 00004
+Local Max ID  00004,00003
+Spla Node : 00003
+ Local Max Id  00004,00003
+Local Max Spla 7
+Local Max Lahsa 7
+MAX ID 00004,00003
+Max Spla7
+Max Lahsa7
+SPLA ADDING Applicant : 00003
+Local Max ID  00004,00003,00002
+Beds Weekly  : [0, 0, 0, 0, 0, 0, 0]
+Spaces Weekly : [0, 0, 0, 1, 0, 0, 0]
+Max Current SPLA 6
+Max Current LAHSA:
+7
+SPLA REMOVES Applicant : 00004
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', False), ('00002', False), ('00003', True), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00004
+Lahsa Node : 00004
+Local Max Id  100000
+Local Max Spla -1
+Local Max Lahsa -1
+***********************************************************************
+Player: SPLA
+Applicants :
+OrderedDict([('00001', False), ('00002', False), ('00003', True), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00004
+Beds Weekly  : [0, 0, 0, 0, 0, 0, 0]
+Spaces Weekly : [0, 0, 0, 0, 0, 0, 0]
+Max Current SPLA 7
+Max Current LAHSA:
+7
+SPLA REMOVES Applicant : 00003
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', False), ('00002', False), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00003
+MAX ID 00003
+Max Spla7
+Max Lahsa7
+SPLA ADDING Applicant : 00003
+Local Max ID  00003,00004
+Spla Node : 00004
+ Local Max Id  00003,00004
+Local Max Spla 7
+Local Max Lahsa 7
+MAX ID 00003,00004
+Max Spla7
+Max Lahsa7
+SPLA ADDING Applicant : 00004
+Local Max Id ------ SPLA 00004,00003,00002 Max ID 00003,00004
+Local Max ID  00003,00004,00002
+Spla Node : 00002
+ Local Max Id  00003,00004,00002
+Local Max Spla 7
+Local Max Lahsa 7
+MAX ID 00003,00004,00002
+Max Spla7
+Max Lahsa7
+ LAHSA ADDING Applicant: 00002
+Local Max ID  00003,00004,00002,00001
+Beds Weekly  : [1, 1, 1, 0, 1, 1, 1]
+Spaces Weekly : [0, 0, 0, 1, 1, 1, 1]
+ Max Current SPLA :
+3
+ Max Current LAHSA:
+1
+ LAHSA REMOVES Applicant : 00003
+***********************************************************************
+Player: SPLA
+Applicants :
+OrderedDict([('00001', False), ('00002', True), ('00003', False), ('00004', True)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00003
+Beds Weekly  : [1, 1, 1, 0, 1, 1, 1]
+Spaces Weekly : [0, 0, 0, 1, 0, 0, 0]
+Max Current SPLA 6
+Max Current LAHSA:
+1
+SPLA REMOVES Applicant : 00004
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', False), ('00002', True), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00004
+Lahsa Node : 00004
+Local Max Id  100000
+Local Max Spla -1
+Local Max Lahsa -1
+***********************************************************************
+Player: SPLA
+Applicants :
+OrderedDict([('00001', False), ('00002', True), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00004
+MAX ID 00004
+Max Spla6
+Max Lahsa1
+SPLA ADDING Applicant : 00004
+Local Max ID  00004,00003
+Spla Node : 00003
+ Local Max Id  00004,00003
+Local Max Spla 6
+Local Max Lahsa 1
+MAX ID 00004,00003
+Max Spla6
+Max Lahsa1
+ LAHSA ADDING Applicant: 00003
+Beds Weekly  : [1, 1, 1, 1, 0, 0, 0]
+Spaces Weekly : [0, 0, 0, 1, 1, 1, 1]
+ Max Current SPLA :
+3
+ Max Current LAHSA:
+3
+ LAHSA REMOVES Applicant : 00004
+***********************************************************************
+Player: SPLA
+Applicants :
+OrderedDict([('00001', False), ('00002', True), ('00003', True), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00004
+Beds Weekly  : [1, 1, 1, 1, 0, 0, 0]
+Spaces Weekly : [0, 0, 0, 0, 1, 1, 1]
+Max Current SPLA 4
+Max Current LAHSA:
+3
+SPLA REMOVES Applicant : 00003
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', False), ('00002', True), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00003
+Lahsa Node : 00003
+Local Max Id  100000
+Local Max Spla -1
+Local Max Lahsa -1
+***********************************************************************
+Player: SPLA
+Applicants :
+OrderedDict([('00001', False), ('00002', True), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00003
+MAX ID 00003
+Max Spla4
+Max Lahsa3
+SPLA ADDING Applicant : 00003
+Local Max ID  00003,00004
+Spla Node : 00004
+ Local Max Id  00003,00004
+Local Max Spla 4
+Local Max Lahsa 3
+MAX ID 00003,00004
+Max Spla4
+Max Lahsa3
+ LAHSA ADDING Applicant: 00004
+Lahsa Node : 00001
+Local Max Id  00003,00004,00002,00001
+Local Max Spla 7
+Local Max Lahsa 7
+MAX ID 00003,00004,00002,00001
+Max Spla7
+Max Lahsa7
+SPLA ADDING Applicant : 00001
+Local Max ID  00003,00004,00002,00001,
+Beds Weekly  : [1, 1, 1, 1, 1, 1, 1]
+Spaces Weekly : [1, 1, 1, 0, 1, 1, 1]
+Max Current SPLA 1
+Max Current LAHSA:
+0
+SPLA REMOVES Applicant : 00003
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', True), ('00002', True), ('00003', False), ('00004', True)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00003
+Beds Weekly  : [0, 0, 0, 0, 0, 0, 0]
+Spaces Weekly : [1, 1, 1, 0, 1, 1, 1]
+ Max Current SPLA :
+1
+ Max Current LAHSA:
+7
+ LAHSA REMOVES Applicant : 00002
+***********************************************************************
+Player: SPLA
+Applicants :
+OrderedDict([('00001', True), ('00002', False), ('00003', False), ('00004', True)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00002
+Beds Weekly  : [0, 0, 0, 0, 0, 0, 0]
+Spaces Weekly : [0, 0, 0, 0, 1, 1, 1]
+Max Current SPLA 4
+Max Current LAHSA:
+7
+SPLA REMOVES Applicant : 00001
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', False), ('00002', False), ('00003', False), ('00004', True)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00001
+Lahsa Node : 00001
+Local Max Id  100000
+Local Max Spla -1
+Local Max Lahsa -1
+***********************************************************************
+Player: SPLA
+Applicants :
+OrderedDict([('00001', False), ('00002', False), ('00003', False), ('00004', True)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00001
+Beds Weekly  : [0, 0, 0, 0, 0, 0, 0]
+Spaces Weekly : [0, 0, 0, 0, 0, 0, 0]
+Max Current SPLA 7
+Max Current LAHSA:
+7
+SPLA REMOVES Applicant : 00004
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', False), ('00002', False), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00004
+MAX ID 00004
+Max Spla7
+Max Lahsa7
+SPLA ADDING Applicant : 00004
+Local Max ID  00004,00001
+Spla Node : 00001
+ Local Max Id  00004,00001
+Local Max Spla 7
+Local Max Lahsa 7
+MAX ID 00004,00001
+Max Spla7
+Max Lahsa7
+SPLA ADDING Applicant : 00001
+Local Max ID  00004,00001,00002
+Beds Weekly  : [0, 0, 0, 0, 0, 0, 0]
+Spaces Weekly : [1, 1, 1, 0, 0, 0, 0]
+Max Current SPLA 4
+Max Current LAHSA:
+7
+SPLA REMOVES Applicant : 00004
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', True), ('00002', False), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00004
+***********************************************************************
+Player: SPLA
+Applicants :
+OrderedDict([('00001', True), ('00002', False), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00004
+Beds Weekly  : [0, 0, 0, 0, 0, 0, 0]
+Spaces Weekly : [0, 0, 0, 0, 0, 0, 0]
+Max Current SPLA 7
+Max Current LAHSA:
+7
+SPLA REMOVES Applicant : 00001
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', False), ('00002', False), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00001
+MAX ID 00001
+Max Spla7
+Max Lahsa7
+SPLA ADDING Applicant : 00001
+Local Max ID  00001,00004
+Spla Node : 00004
+ Local Max Id  00001,00004
+Local Max Spla 7
+Local Max Lahsa 7
+MAX ID 00001,00004
+Max Spla7
+Max Lahsa7
+SPLA ADDING Applicant : 00004
+Local Max Id ------ SPLA 00004,00001,00002 Max ID 00001,00004
+Local Max ID  00001,00004,00002
+Spla Node : 00002
+ Local Max Id  00001,00004,00002
+Local Max Spla 7
+Local Max Lahsa 7
+MAX ID 00001,00004,00002
+Max Spla7
+Max Lahsa7
+ LAHSA ADDING Applicant: 00002
+Local Max ID  00001,00004,00002,00003
+Beds Weekly  : [1, 1, 1, 1, 0, 0, 0]
+Spaces Weekly : [1, 1, 1, 0, 1, 1, 1]
+ Max Current SPLA :
+1
+ Max Current LAHSA:
+3
+ LAHSA REMOVES Applicant : 00004
+***********************************************************************
+Player: SPLA
+Applicants :
+OrderedDict([('00001', True), ('00002', True), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00004
+Beds Weekly  : [1, 1, 1, 1, 0, 0, 0]
+Spaces Weekly : [0, 0, 0, 0, 1, 1, 1]
+Max Current SPLA 4
+Max Current LAHSA:
+3
+SPLA REMOVES Applicant : 00001
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', False), ('00002', True), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00001
+Lahsa Node : 00001
+Local Max Id  100000
+Local Max Spla -1
+Local Max Lahsa -1
+***********************************************************************
+Player: SPLA
+Applicants :
+OrderedDict([('00001', False), ('00002', True), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00001
+MAX ID 00001
+Max Spla4
+Max Lahsa3
+SPLA ADDING Applicant : 00001
+Local Max ID  00001,00004
+Spla Node : 00004
+ Local Max Id  00001,00004
+Local Max Spla 4
+Local Max Lahsa 3
+MAX ID 00001,00004
+Max Spla4
+Max Lahsa3
+ LAHSA ADDING Applicant: 00004
+Lahsa Node : 00003
+Local Max Id  00001,00004,00002,00003
+Local Max Spla 7
+Local Max Lahsa 7
+MAX ID 00001,00004,00002,00003
+Max Spla7
+Max Lahsa7
+SPLA ADDING Applicant : 00003
+Local Max Id ------ SPLA 00003,00004,00002,00001, Max ID 00001,00004,00002,00003
+Local Max ID  00001,00004,00002,00003,
+Beds Weekly  : [1, 1, 1, 1, 1, 1, 1]
+Spaces Weekly : [1, 1, 1, 1, 0, 0, 0]
+Max Current SPLA 3
+Max Current LAHSA:
+0
+SPLA REMOVES Applicant : 00004
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', True), ('00002', True), ('00003', True), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00004
+Beds Weekly  : [0, 0, 0, 0, 0, 0, 0]
+Spaces Weekly : [1, 1, 1, 1, 0, 0, 0]
+ Max Current SPLA :
+3
+ Max Current LAHSA:
+7
+ LAHSA REMOVES Applicant : 00002
+***********************************************************************
+Player: SPLA
+Applicants :
+OrderedDict([('00001', True), ('00002', False), ('00003', True), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00002
+Beds Weekly  : [0, 0, 0, 0, 0, 0, 0]
+Spaces Weekly : [0, 0, 0, 1, 0, 0, 0]
+Max Current SPLA 6
+Max Current LAHSA:
+7
+SPLA REMOVES Applicant : 00001
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', False), ('00002', False), ('00003', True), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00001
+Lahsa Node : 00001
+Local Max Id  100000
+Local Max Spla -1
+Local Max Lahsa -1
+***********************************************************************
+Player: SPLA
+Applicants :
+OrderedDict([('00001', False), ('00002', False), ('00003', True), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00001
+Beds Weekly  : [0, 0, 0, 0, 0, 0, 0]
+Spaces Weekly : [0, 0, 0, 0, 0, 0, 0]
+Max Current SPLA 7
+Max Current LAHSA:
+7
+SPLA REMOVES Applicant : 00003
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', False), ('00002', False), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00003
+MAX ID 00003
+Max Spla7
+Max Lahsa7
+SPLA ADDING Applicant : 00003
+Local Max ID  00003,00001
+Spla Node : 00001
+ Local Max Id  00003,00001
+Local Max Spla 7
+Local Max Lahsa 7
+MAX ID 00003,00001
+Max Spla7
+Max Lahsa7
+SPLA ADDING Applicant : 00001
+Local Max ID  00003,00001,00002
+Beds Weekly  : [0, 0, 0, 0, 0, 0, 0]
+Spaces Weekly : [1, 1, 1, 0, 0, 0, 0]
+Max Current SPLA 4
+Max Current LAHSA:
+7
+SPLA REMOVES Applicant : 00003
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', True), ('00002', False), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00003
+***********************************************************************
+Player: SPLA
+Applicants :
+OrderedDict([('00001', True), ('00002', False), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00003
+Beds Weekly  : [0, 0, 0, 0, 0, 0, 0]
+Spaces Weekly : [0, 0, 0, 0, 0, 0, 0]
+Max Current SPLA 7
+Max Current LAHSA:
+7
+SPLA REMOVES Applicant : 00001
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', False), ('00002', False), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00001
+MAX ID 00001
+Max Spla7
+Max Lahsa7
+SPLA ADDING Applicant : 00001
+Local Max ID  00001,00003
+Spla Node : 00003
+ Local Max Id  00001,00003
+Local Max Spla 7
+Local Max Lahsa 7
+MAX ID 00001,00003
+Max Spla7
+Max Lahsa7
+SPLA ADDING Applicant : 00003
+Local Max Id ------ SPLA 00003,00001,00002 Max ID 00001,00003
+Local Max ID  00001,00003,00002
+Spla Node : 00002
+ Local Max Id  00001,00003,00002
+Local Max Spla 7
+Local Max Lahsa 7
+MAX ID 00001,00003,00002
+Max Spla7
+Max Lahsa7
+ LAHSA ADDING Applicant: 00002
+Local Max ID  00001,00003,00002,00004
+Beds Weekly  : [1, 1, 1, 0, 1, 1, 1]
+Spaces Weekly : [1, 1, 1, 1, 0, 0, 0]
+ Max Current SPLA :
+3
+ Max Current LAHSA:
+1
+ LAHSA REMOVES Applicant : 00003
+***********************************************************************
+Player: SPLA
+Applicants :
+OrderedDict([('00001', True), ('00002', True), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00003
+Beds Weekly  : [1, 1, 1, 0, 1, 1, 1]
+Spaces Weekly : [0, 0, 0, 1, 0, 0, 0]
+Max Current SPLA 6
+Max Current LAHSA:
+1
+SPLA REMOVES Applicant : 00001
+***********************************************************************
+LAHSA Player
+Applicants :
+OrderedDict([('00001', False), ('00002', True), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00001
+Lahsa Node : 00001
+Local Max Id  100000
+Local Max Spla -1
+Local Max Lahsa -1
+***********************************************************************
+Player: SPLA
+Applicants :
+OrderedDict([('00001', False), ('00002', True), ('00003', False), ('00004', False)])
+Spla Applicants: 00001
+Lahsa Applicants: 00002
+Common Applicants : 00003,00004
+Parent : 00001
+MAX ID 00001
+Max Spla6
+Max Lahsa1
+SPLA ADDING Applicant : 00001
+Local Max ID  00001,00003
+Spla Node : 00003
+ Local Max Id  00001,00003
+Local Max Spla 6
+Local Max Lahsa 1
+MAX ID 00001,00003
+Max Spla6
+Max Lahsa1
+ LAHSA ADDING Applicant: 00003
+Lahsa Node : 00004
+Local Max Id  00001,00003,00002,00004
+Local Max Spla 7
+Local Max Lahsa 7
+MAX ID 00001,00003,00002,00004
+Max Spla7
+Max Lahsa7
+SPLA ADDING Applicant : 00004
+Local Max Id ------ SPLA 00001,00004,00002,00003, Max ID 00001,00003,00002,00004
+Local Max ID  00001,00003,00002,00004,
+Spla Node :
+ Local Max Id  00001,00003,00002,00004,
+Local Max Spla 7
+Local Max Lahsa 7
+7
+7
+00001,00003,00002,00004,
+00004
+
+Process finished with exit code 0
